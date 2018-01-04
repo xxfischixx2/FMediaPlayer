@@ -25,11 +25,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += faudioplayer.cpp \
-    fmediaplaylist.cpp
+    fmediaplaylist.cpp \
+    fmetadataeditor.cpp \
+    fmediaobject.cpp
 
 HEADERS += faudioplayer.h\
         fmultimedia_global.h \
-    fmediaplaylist.h
+    fmediaplaylist.h \
+    fmetadataeditor.h \
+    fmediaobject.h
 
 unix {
     target.path = /usr/lib
